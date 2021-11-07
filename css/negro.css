@@ -1,0 +1,208 @@
+/*Versión movil*/
+
+@media (max-width: 575px) {
+  section .nuevo {display: none;}
+}
+
+@media (max-width: 575px) {
+  section .ubi {display: none;}
+}
+
+@media (max-width: 575px) {
+  section .jamonn {width: 30vw;}
+}
+
+@media (max-width: 575px) {
+  section .h1 .h2 .p{width: 10vw;}
+}
+
+@media (max-width: 575px) {
+  section .jamon {height: 25vw;}
+}
+
+
+@media (max-width: 575px) {
+  aside .h1 .h2 .h3 .p  {width: 20vw; height: 30vh;}
+}
+
+@media (max-width: 575px) {
+  aside .vide {width: 38vw; height: 38vh;}
+}
+
+@media (max-width: 575px) {
+  aside .audio {width: 35vw;}
+}
+
+@media (max-width: 575px) {
+  aside .gai {width: 35vw;}
+}
+
+
+/*Tablet*/
+
+@media (max-width: 991px ) {
+
+ header .flow {background-color: yellow;}
+}
+
+@font-face {
+  font-family: "calibri";
+  src: url(../fuentes/calibri)
+}
+
+
+body {
+background-color: #232323;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+/* El contacto */
+nav {float:none;
+text-align: center;
+margin: 1px;
+height: 4px;
+}
+
+.contac {
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  border: 1px solid #1f53c5;
+  color: white;
+  margin: 10px 0;
+  background-color: #414141;
+
+}
+
+h1,h2,p,h3,ul,ol {color:white;
+  font-family: arial;
+
+}
+
+h1,h2{
+  width: 100%;
+  border: none;
+  padding: 17px;
+  color: white;
+  margin: 18px 0;
+background-color: #1f53c5;
+
+}
+
+h3{
+  background-color: #414141;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+}
+
+}
+.nuevo {display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  padding: 20px;
+
+}
+
+.flow {
+background-color: ;
+
+}
+
+/*Ubicacion*/
+
+span .nuevo{
+ float: left;
+ width: 1330px;
+ height: 150px;
+ background-color: #C2C1C1;
+ margin: 1%;
+ overflow: auto;
+ border: 5px solid #1f53c5;
+
+}
+
+
+nav.hover{
+  color: red;
+}
+
+section {
+float:left;
+width: 60%;
+height: 2050px;
+overflow: auto;
+margin: 1%;
+background-color: #414141;
+box-shadow: 7px 13px 37px #000;
+
+}
+
+aside {  width: 35%;
+float: left;
+height: 2050px;
+overflow: auto;
+margin: 1%;
+border: 2px solid #6D6C6C;
+background-color: #414141;
+box-shadow: 7px 13px 37px #000;
+}
+
+
+footer{
+   clear:both;
+}
+
+.imagen {
+position: fixed;
+top: 85%;
+right: 1px;
+}
+
+.modo {
+  position: fixed;
+  top: 85%;
+  left: 1px;}
+
+  /*Card*/
+  .card {
+    margin: 22px;
+    float: left;
+    align-items: left;
+    border: 1px solid black;
+  }
+  .card1 {
+    margin: 22px;
+    float: left;
+    align-items: left;
+    border: 1px solid black;
+  }
+  .card2 {
+    margin: 22px;
+    float: left;
+    align-items: left;
+    border: 1px solid black;
+  }
+  .card3 {
+    margin: 22px;
+    float: left;
+    align-items: left;
+    border: 1px solid black;
+  }
+
+  /*diapositivas*/
+
+  .dia {
+    width: 500px;
+  }
+
+  .dia2 {
+    width: 500px;
+    height: 400px;
+  }

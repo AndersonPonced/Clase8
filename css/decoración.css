@@ -1,0 +1,233 @@
+body {
+  background-image: url(imagenes/pan.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: arial;
+
+}
+
+
+
+/*Versión movil*/
+
+@media (max-width: 575px) {
+  section .nuevo {display: none;}
+}
+
+@media (max-width: 575px) {
+  section .ubi {display: none;}
+}
+
+@media (max-width: 575px) {
+  section .jamonn {width: 30vw;}
+}
+
+@media (max-width: 575px) {
+  section .h1 .h2 .p{width: 10vw;}
+}
+
+@media (max-width: 575px) {
+  section .jamon {height: 25vw;}
+}
+
+
+@media (max-width: 575px) {
+  aside .h1 .h2 .h3 .p  {width: 20vw; height: 30vh;}
+}
+
+@media (max-width: 575px) {
+  aside .vide {width: 38vw; height: 38vh;}
+}
+
+@media (max-width: 575px) {
+  aside .audio {width: 35vw;}
+}
+
+@media (max-width: 575px) {
+  aside .gai {width: 35vw;}
+}
+
+@media (max-width:575px) {
+  aside {width: 10vw;}
+
+}
+
+@media (max-width:575px) {
+  section {width: 10vw;}
+}
+
+/*Tablet*/
+
+@media (max-width: 991px ) {
+
+ header .flow {background-color: yellow;}
+}
+
+/*card media*/
+
+@media (max-width:991px) {
+  .card .card1 .card2 .card3 {width: 35vw;}
+}
+
+@media (max-width:575px) {
+  .card .card1 .card2 .card3 {width: 10vw;}
+}
+
+/*footer*/
+
+@media (max-width:991px) {
+  footer, span {width: 35vw;}
+}
+
+/* El contacto */
+nav {float:none;
+text-align: center;
+margin: 1px;
+height: 4px;
+}
+
+.contac {
+  padding: 10px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  border: 1px solid #1f53c5;
+  color: black;
+  margin: 10px 0;
+  background-color: #C2C1C1;
+
+}
+
+.contac:hover {
+   background-color: #ADADAD;
+   font-size: 17px;
+}
+
+}
+
+font-size { height: 2vh;
+  width: 2vw;
+}
+h1,h2,p,h3,ul,ol {color:#000000;}
+
+
+
+}
+
+@font-face {
+  font-family: arial;
+}
+
+h3 {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  background-color: #C2C1C1;
+
+}
+
+h1{width: 100%;
+background: #1f53c5;
+border: none;
+padding: 17px;
+color: white;
+margin: 18px 0;
+}
+
+
+.flow {
+background-color: #0377AE;
+
+}
+
+ /*Ubicacion*/
+
+span .nuevo{
+  float: left;
+  width: 1330px;
+  height: 150px;
+  background-color: #C2C1C1;
+  margin: 1%;
+  overflow: auto;
+  border: 5px solid #1f53c5;
+
+}
+
+
+
+section {
+float:left;
+width: 60%;
+height: 2050px;
+overflow: auto;
+margin: 1%;
+background-color: #C2C1C1;
+box-shadow: 7px 13px 37px #000;
+
+}
+
+aside {  width: 35%;
+float: left;
+height: 2050px;
+overflow: auto;
+margin: 1%;
+border: 2px solid #6D6C6C;
+background-color: #C2C1C1;
+box-shadow: 7px 13px 37px #000;
+}
+
+footer{
+   clear:both;
+}
+
+.imagen {
+position: fixed;
+top: 85%;
+right: 1px;
+}
+
+.modo {
+  position: fixed;
+  top: 85%;
+  left: 1px;
+
+}
+
+/*Card*/
+.card {
+  margin: 22px;
+  float: left;
+  align-items: left;
+  border: 1px solid black;
+}
+.card1 {
+  margin: 22px;
+  float: left;
+  align-items: left;
+  border: 1px solid black;
+}
+.card2 {
+  margin: 22px;
+  float: left;
+  align-items: left;
+  border: 1px solid black;
+}
+.card3 {
+  margin: 22px;
+  float: left;
+  align-items: left;
+  border: 1px solid black;
+}
+
+/*diapositivas*/
+
+.dia {
+  width: 500px;
+}
+
+.dia2 {
+  width: 500px;
+  height: 400px;
+}
